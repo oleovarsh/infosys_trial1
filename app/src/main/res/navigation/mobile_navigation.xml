@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_addrequests">
+
+    <fragment
+        android:id="@+id/navigation_addrequests"
+        android:name="com.example.trial1.ui.AddRequestsFragment"
+        android:label="@string/add_requests"
+        tools:layout="@layout/fragment_addrequests" />
+
+    <fragment
+        android:id="@+id/navigation_currentrequests"
+        android:name="com.example.trial1.ui.CurrentRequestsFragment"
+        android:label="@string/current_requests"
+        tools:layout="@layout/fragment_currentrequests" />
+
+    <fragment
+        android:id="@+id/navigation_browserequests"
+        android:name="com.example.trial1.ui.BrowseRequestFragment"
+        android:label="@string/browse_requests"
+        tools:layout="@layout/fragment_browserequests" />
+
+    <fragment
+        android:id="@+id/navigation_currentdeliveries"
+        android:name="com.example.trial1.ui.CurrentDeliveriesFragment"
+        android:label="@string/current_deliveries"
+        tools:layout="@layout/fragment_currentdeliveries" />
+    <fragment
+        android:id="@+id/navigation_userprofile"
+        android:name="com.example.trial1.ui.UserProfileFragment"
+        android:label="@string/user_profile"
+        tools:layout="@layout/fragment_userprofile" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.trial1.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>

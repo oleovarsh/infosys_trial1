@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">trial1</string>
+    <string name="username">username</string>
+    <string name="enter_telehandle">telehandle</string>
+    <string name="submit_login">submit</string>
+    <string name="login_button">login</string>
+    <string name="benny_tele">benny</string>
+    <string name="ben_name">ben</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="current_requests">Current Requests</string>
+    <string name="accepted_requests">accepted requests</string>
+    <string name="add_requests">add requests</string>
+    <string name="current_deliveries">current deliveries</string>
+    <string name="user_profile">user profile</string>
+    <string name="add">add</string>
+    <string name="cr">cr</string>
+    <string name="ar">ar</string>
+    <string name="a_req">a_req</string>
+    <string name="cd">cd</string>
+    <string name="up">up</string>
+    <string name="browse_requests">browse requests</string>
+    <string name="req_1">req 1</string>
+    <string name="requser">requser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="location">location</string>
+    <string name="location_label">location:</string>
+    <string name="restaurant_label">restaurant:</string>
+    <string name="restaurant">restaurant</string>
+    <string name="submit_order">Submit order</string>
+
+    <string-array name="locations">
+        <item>Changi City Point</item>
+        <item>SUTD canteen</item>
+        <item>Simpang</item>
+        <item>Eastpoint mall</item>
+        <item>Changi Airport</item>
+
+    </string-array>
+</resources>
